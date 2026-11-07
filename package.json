@@ -1,0 +1,18 @@
+{
+  "name": "harvey",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Harvey: an AI closer for negotiations, tough conversations and career moves.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "python3 -m http.server 8000 -d docs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
